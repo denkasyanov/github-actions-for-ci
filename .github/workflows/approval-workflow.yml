@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Label PR when approved
-      - uses: pullreminderes/label-when-approved-action@master
+        uses: pullreminderes/label-when-approved-action@master
         env:
           APPROVALS: 1
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
